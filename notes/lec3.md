@@ -66,6 +66,9 @@ $$
 
 <img src="img/lec3-rotation.png" style="zoom:67%;" />
 
+$$
+R_{-\theta}=R_{\theta}^{-1}=R_{\theta}^\top
+$$
 **Linear Transforms**
 $$
 \bold{x}^\prime=\bold{M}\bold{x}
