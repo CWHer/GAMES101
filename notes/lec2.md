@@ -37,13 +37,13 @@
   - 求一个向量在另一个向量的投影
     $$
     \vec b_{\perp} =\left \| b \right \| \cos \theta \cdot \vec a \\
-    \vec b_{//}=\vec b - \vec b_{\perp}
+    \vec b_{\parallel}=\vec b - \vec b_{\perp}
     $$
-
+    
   - 计算两个方向接近程度
-
+  
   - 判断前后
-
+  
 - Cross (vector) product
   $$
   \vec a\times \vec b=A^{\star}b=

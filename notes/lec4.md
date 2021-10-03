@@ -33,9 +33,7 @@ note: $\vec z \times \vec x =\vec y$，把z当作2D情况的x，把x当作2D情�
 
 **一般的旋转**
 
-- [ ] 公式推导
-
-用简单的旋转组合
+简单的旋转可以组合成复杂的旋转
 $$
 R_{xyz}(\alpha,\beta,\gamma)=R_{x}(\alpha)R_{y}(\beta)R_z(\gamma)
 $$
@@ -51,6 +49,20 @@ n_{z} & 0 & -n_{x} \\
 -n_{y} & n_{x} & 0
 \end{array}\right)}_{\mathbf{N}}
 $$
+说明：
+
+1. 设要旋转的向量为$\vec s$，将$\vec s$对于$\vec n$分解为$\vec s_{\perp},\vec s_{\parallel}$
+
+2. 将$\vec {n},\vec s_{\perp},\vec n \times \vec s_{\perp}$单位化后建立新的坐标系，记为$\vec {a},\vec{b},\vec {c}$
+
+3. $\vec s_{\perp}$在旋转后会发生变化，而$\vec s_{\parallel}$不会
+
+   $\vec s_{\perp}$的旋转完全在$\vec b,\vec c$平面内
+   $$
+   \bold {s}_{\perp}^{\text{rot}}=\left \| \vec s_{\perp} \right \| \cos\alpha \cdot \vec b+\left \| \vec s_{\perp} \right \|  \sin \alpha \cdot \vec {c} \\
+   \bold s= \bold {s}_{\perp}^{\text{rot}} + \bold s_{\parallel}
+   $$
+
 沿任意轴：平移回原点，旋转，重新平移回去
 
 note: 四元数可以用于旋转之间插值（例如旋转15°和旋转25°中间插值，20°不等于矩阵求平均）
