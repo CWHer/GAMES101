@@ -1,5 +1,7 @@
 ## 计算机图形学概述
 
+<img src="img/lec1-roadmap.png" style="zoom:67%;" />
+
 ### What is CG?
 
 合成和操作视觉信息
