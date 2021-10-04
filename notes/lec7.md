@@ -75,9 +75,7 @@ The process of <u>applying a material</u> (材质) to an object.
 
 
 
-##### A Simple Shading Model 
-
-(Blinn-Phong Reflectance Model)
+##### Blinn-Phong Reflectance Model
 
 经验模型，不完全符合物理规律
 
