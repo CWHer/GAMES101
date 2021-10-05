@@ -30,7 +30,11 @@
 
   <img src="img/assignment3/texture.png" style="zoom:67%;" />
 
-- [ ] assignment4
+- [x] assignment4
+
+  贝塞尔曲线，distance function
+
+  <img src="img/assignment4.png" style="zoom:67%;" />
 
 - [ ] assignment5
 
