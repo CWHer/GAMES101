@@ -20,7 +20,15 @@
 
   <img src="img/assignment2.png" style="zoom:67%;" />
 
-- [ ] assignment3
+- [x] assignment3
+
+  插值，Blinn-phong模型，纹理映射，Bilinear纹理插值
+
+  注：C++ lambda的auto推导结果似乎有一些问题，在`rasterizer.cpp`的336行有相关记录
+
+  在`img/assignment3`可以找到没有插值的纹理映射结果
+
+  <img src="img/assignment3/texture.png" style="zoom:67%;" />
 
 - [ ] assignment4
 
