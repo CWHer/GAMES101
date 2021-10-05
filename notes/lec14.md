@@ -215,7 +215,11 @@ Definition: The radiant (luminous) intensity is the <u>power</u> <u>per unit sol
 
 <img src="img/lec14-solid-angle.png" style="zoom:67%;" />
 
-微分形式
+微分立体角
+
+$\mathrm{d}\omega$随着$\mathrm{d}\theta,\mathrm{d}\phi$的变化情况
+
+注：和$\sin \theta$有关，不均匀
 
 <img src="img/lec14-Differential-Solid-Angles.png" style="zoom:67%;" />
 
