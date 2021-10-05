@@ -97,7 +97,9 @@ $\mathrm{d}E(p,\omega)$为$p$点来自$\omega$方向的Irradiance，$E(p)$为$p$
   \int \mathrm{d} L_{r}\left(\omega_{r}\right)= L_{r}\left(\omega_{r}\right) \\
   \int L\left(\omega_{o}\right) \cos \theta_{o} d \omega_{o}= \int L\left(\omega_{i}\right) \cos \theta_{i} d \omega_{i}
   $$
-    
+  
+
+
 
 problem：不知道irradiance变成radiance出射的能量分布
 

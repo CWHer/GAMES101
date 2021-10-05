@@ -63,6 +63,9 @@
 
 <img src="img/lec13-recursive-combination.png" style="zoom:67%;" />
 
+- Always perform <u>specular</u> reflections / refractions 
+- Stop bouncing at <u>diffuse</u> surfaces
+
 每一个交点都和光源连线并着色，都对pixel着色产生影响
 
 primary ray + secondary ray + shadow ray
