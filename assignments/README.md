@@ -36,7 +36,11 @@
 
   <img src="img/assignment4.png" style="zoom:67%;" />
 
-- [ ] assignment5
+- [x] assignment5
+
+  ray generation，MT算法
+
+  <img src="img/assignment5.png" style="zoom:67%;" />
 
 - [ ] assignment6
 
