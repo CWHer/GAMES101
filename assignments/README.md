@@ -40,9 +40,15 @@
 
   ray generation，MT算法
 
-  <img src="img/assignment5.png" style="zoom:67%;" />
+  <img src="img/assignment5.png" style="zoom: 50%;" />
 
-- [ ] assignment6
+- [x] assignment6
+
+  - [ ] SAH (Surface Area Heuristic) ([参考资料](http://15462.courses.cs.cmu.edu/fall2015/lecture/acceleration/slide_024))
+
+  BVH
+
+  <img src="img/assignment6.png" style="zoom: 50%;" />
 
 - [ ] assignment7
 
