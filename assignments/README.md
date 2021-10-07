@@ -52,4 +52,8 @@
 
 - [ ] assignment7
 
-- [ ] assignment8
+- [x] assignment8
+
+  质点弹簧系统，欧拉法，显式Verlet，阻尼
+
+  <img src="img/assignment8.png" style="zoom:67%;" />
