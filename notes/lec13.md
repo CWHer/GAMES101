@@ -205,5 +205,5 @@ If t~enter~ < t~exit~, we know the ray stays a while in the box(so they must int
 
   The ray’s origin is inside the box — have intersection! 
 
-In **summary**: ray and AABB intersect iff t~enter~ < t~exit~ && t~exit~ >= 0
+In **summary**: ray and AABB intersect iff t~enter~ <= t~exit~ && t~exit~ >= 0
 

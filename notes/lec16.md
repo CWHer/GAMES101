@@ -232,7 +232,9 @@ shade(p, wo)
     	L_indir = shade(q, -wi) * f_r * cos θ / pdf_hemi / P_RR
         
     Return L_dir + L_indir
-# Q：L_dir和L_indir是否需要平衡一下，否则L_dir权重更大，不满足平均？
+# L_dir和L_indir分别计算直接和间接光照，两部分互不干扰
+# 全局光照 = 直接光照 + 间接光照
+# Q: L_dir和L_indir的收敛速度应该不一致?
 ```
 
 One final thing: how do we know if the sample on the light is not blocked or not?
