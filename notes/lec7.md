@@ -124,7 +124,7 @@ Specular highlights (高光，镜面反射) + Diffuse reflection (漫反射) + A
 
 <img src="img/lec7-diffuse-shading.png" style="zoom:67%;" />
 
-- $\max(0,\vec n \cdot \vec {l})$去掉方向的光
+- $\max(0,\vec n \cdot \vec {l})$去掉反方向的光
 - $k_d$是shading point自身的参数，$k_d=1$完全不吸收能量
 - $L_d$和观测方向无关
 

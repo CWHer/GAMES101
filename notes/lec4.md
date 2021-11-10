@@ -173,6 +173,10 @@ Find the relationship between transformed points (x’, y’, z’) and the orig
 
   从侧面看
   $$
+  x=\frac{x_0}{n}z, \ x^\prime=x_0 \Rightarrow x^\prime=\frac{n}{z}x
+  $$
+  
+  $$
   y^\prime= \frac{n}{z}y \quad \quad x^\prime= \frac{n}{z}x
   $$
   <img src="img/lec4-perspective-trans0.png" style="zoom:67%;" />

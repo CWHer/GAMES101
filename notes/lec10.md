@@ -71,6 +71,8 @@ In modern GPUs, texture = memory + range query (filtering)
   - 位移贴图会实际改变几何体，要求三角形足够多
 
     DirectX动态曲面细分，根据需要划分更多的几何体
+    
+  - 其它: Parallax mapping, relief mapping
 
 - Procedural textures + Solid modeling 
 
@@ -136,7 +138,7 @@ Best Representation Depends on the Task!
 
   <img src="img/lec10-SDF-sample.png" style="zoom:67%;" />
 
-  求出A到B的运动的中间状态。直接blend中间效果不理想；理解结果左边是黑的，右边是白的
+  求出A到B的运动的中间状态。直接blend中间效果不理想；理想结果左边是黑的，右边是白的
 
   Signed Distance Fields (SDF)，有非常强的表示能力
 

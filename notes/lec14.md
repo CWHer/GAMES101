@@ -151,6 +151,8 @@ Data Structure for BVHs
 
 Nodes represent subset of primitives in scene (All objects in subtree)
 
+<img src="img/lec14-BVH-traverse.png" style="zoom: 67%;" />
+
 
 
 **Spatial vs Object Partitions**

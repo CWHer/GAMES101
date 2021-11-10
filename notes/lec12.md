@@ -12,7 +12,7 @@ Increase resolution, upsampling
 
 ##### Loop Subdivision
 
-Common subdivision rule <u>fortriangle meshes</u>
+Common subdivision rule for <u>triangle meshes</u>
 
 1. create more triangles (vertices) 
 
